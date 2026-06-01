@@ -1,13 +1,4 @@
 <?php
-/**
- * HOTFIX для реальной таблицы сайта /katalog_zadaniya_8/.
- * В таблице support_requests логин и пароль называются:
- * - user_login
- * - user_password_hash
- *
- * Файл также поддерживает запасной вариант login/password_hash.
- */
-
 ob_start();
 ini_set('display_errors', '0');
 error_reporting(E_ALL);
